@@ -29,4 +29,4 @@ class FakeCloud:
 
     def is_valid(self, key):
         s = self.sessions.get(key)
-        return bool(s) and not s["revoked"] and s["expires"] > time.time()
+        return bool(s) and not s["revoked"] and s["expires"] > time.time()                                                                                    
